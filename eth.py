@@ -30,7 +30,7 @@ class Eth(MethodView):
         return ""
     
     def calculate_eth(self, email, ip, wallet, last):
-        send_amount = 5.0
+        send_amount = 10.0
         now = datetime.now().astimezone(timezone(timedelta(hours=-8))).strftime('%m-%d %H:%M')
 
         if email.endswith('@pdx.edu'):
